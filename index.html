@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>To-do App</title>
+</head>
+<body>
+    <header class="header">
+        <div class="hamburger">
+            <div class="menu1"></div>
+            <div class="menu2"></div>
+        </div>
+        <nav>
+            <ul class="nav_icons">
+                    <li class="icon" ><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li class="icon"><a href="#"><i class="fa-regular fa-bell"></i></a> </li>
+                    <div class="clear">
+                        <i class="fa fa-refresh"></i>
+                    </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="greeting">
+        <h1>What's up, Olivia!</h1>
+    </div>
+    <div id="date"></div>
+    <div class="categories">
+        <p class="title">CATEGORIES</p>
+        <div class="boxes">
+                <div class="innerbox">
+                    <p class="task">40 tasks</p>
+                    <p class="topic">Business</p>
+                    <div class="line">
+                        <div class="base-line">
+                            <div class="inner-line"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="innerbox">
+                    <p class="task">18 tasks</p>
+                    <p class="topic">Personal</p>
+                    <div class="line">
+                        <div class="base-line">
+                            <div class="inner-line2"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="content">
+        <p class="content_title">TODAY'S TASKS</p>
+        <ul id="content_list">
+            <!-- <li class="content_item">
+                <i class="fa-regular fa-circle"></i>
+                <p class="text">blah blah blah</p>
+                <i class="fa-solid fa-trash"></i>
+            </li> -->
+        </ul>
+    </div>
+    
+    <div class="add_item">
+        <input type="text" id="input" placeholder="Add a to-do">
+        <i class="fa fa-plus-circle"></i>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

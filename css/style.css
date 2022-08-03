@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background:#3450A1;
+    color:#fff;
+}
+a{
+    text-decoration:none;
+    color:#94B1FC;
+  
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding:30px 40px;
+}
+.hamburger{
+    color:#94B1FC;
+   
+}
+.menu1,.menu2{
+background:#94B1FC;
+width:20px;
+height:2px;
+margin-top:5px;
+border-radius:3px;
+
+}
+.nav_icons{
+    display:flex;
+}
+.icon{
+    padding:0 10px;
+    list-style-type: none;
+}
+.greeting{
+    display:flex;
+    justify-content: center;
+}
+#date{
+    display:flex;
+    color:#000;
+    font-size:18px;
+    margin:10px 0;
+    justify-content: center;
+}
+.categories{
+    padding:30px 60px;
+}
+.add-categories{
+    display:flex;
+    padding:20px 50px;
+    background:#3450A1;
+    border:none;
+    cursor:pointer;
+}
+.boxes{
+    display:flex;
+}
+.title{
+    color:#8AA6F1;
+    font-size:15px;
+    margin:20px 0;
+}
+.innerbox{
+    display:inline-block;
+    padding:25px;
+    background:#041955;
+    border-radius: 20px;
+    margin:0 20px;
+}
+.task{
+    color:#8AA6F1;
+    font-size:15px;
+}
+.line{
+    margin:10px 0;
+}
+.base-line{
+    background:#4A5D90;
+    width:120px;
+    height:2px;
+}
+.inner-line{
+    background:#FA05FF;
+    width:60px;
+    height:2px;
+}
+.inner-line2{
+    background:#2581FF;
+    width:60px;
+    height:2px;
+}
+.content{
+    margin:0 80px;
+    height:35vh;
+}
+.content_title{
+    margin:40px 0 30px 0;
+    color: #94B1FC;
+}
+
+.content_item{
+ display:flex;
+ height:50px;
+ background:#041955;
+ border-radius:25px;
+ align-items:center;
+ padding:30px;
+ width:70%;
+ margin-bottom:10px;
+}
+.content_item li,.content_item p{
+    padding:40px;
+}
+.lineThrough{
+    text-decoration: line-through;
+}
+.fa-circle{
+    cursor: pointer;
+}
+.fa-check-circle{
+    color:#65A000;
+    cursor: pointer;
+}
+.fa-trash{
+   margin:0 0 0 150px;
+   cursor: pointer;
+}
+.add_item{
+    display: flex;
+    justify-content: flex-end;
+}
+#input{
+ width:30%;
+ height:35px;
+}
+.fa-plus-circle{
+    font-size:40px;
+    padding:0 40px;
+    color:#FA05FF;
+    cursor: pointer;
+}
+.fa-plus-circle:hover{
+    color:#de8edf;
+}
